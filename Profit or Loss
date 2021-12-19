@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int purchase, sell, lose, profit;
+
+		profit = sell - purchase;
+
+		cout << "Enter the Purchase price:";
+		cin >> purchase;
+
+		cout << "Enter the Selling price:";
+		cin >> sell;
+
+		if (profit > sell) {
+			cout << profit << "Profit" << endl;
+		}
+		else if (sell == profit) {
+			cout << profit << "None" << endl;
+		}
+		else {
+			cout << profit << "Loss" << endl;
+
+}
