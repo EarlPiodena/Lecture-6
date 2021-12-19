@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	string shape;
+
+	cout << "Pick a number from 1-10" << endl;
+	cin >> num;
+	
+	if (num <= 2) {
+		cout << "Invalid shape, 3 or more sides is needed";
+	}
+	else if (num == 3) {
+		cout << "The shape is a Triangle";
+	}
+	else if (num == 4) {
+		cout << "The shape is a Square";
+	}
+	else if (num == 5) {
+		cout << "The shape is a Pentagon";
+	}
+	else if (num == 6) {
+		cout << "The shape is a Hexagon";
+	}
+	else if (num == 7) {
+		cout << "The shape is a Heptagon";
+	}
+	else if (num == 8) {
+		cout << "The shape is a Octagon";
+	}
+	else if (num == 9) {
+		cout << "The shape is a Nonagon";
+	}
+	else if (num <= 10) {
+		cout << "The shape is Decagon";
+	}
+	else {
+		cout << "I cannot go further than 10. \n";
+		
+	}
+}
